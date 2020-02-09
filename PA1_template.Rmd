@@ -8,7 +8,7 @@ output:
 
 ## Loading and preprocessing the data
 ```{r , echo=TRUE}
-data <- read.csv(unz(activity.zip, "activity.csv"))
+data <- read.csv(unz("activity.zip", "activity.csv"))
 library(tidyr)
 library(dplyr)
 library(ggplot2)
